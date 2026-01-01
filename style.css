@@ -1,0 +1,11 @@
+.appTitle {
+    font-size: 0px;
+    text-align: center;
+    font-family: "Noto Serif", serif;
+    color: transparent;
+    background-image: url(/img/zensudoku_text.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 200px;
+}
