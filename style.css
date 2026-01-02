@@ -1,3 +1,11 @@
+#p1Main {
+    background-image: url(/img/zensudoku_moongate.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
 .appTitle {
     font-size: 0px;
     text-align: center;
