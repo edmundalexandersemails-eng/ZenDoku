@@ -11,16 +11,19 @@
         
         <title>ZenSudoku</title>
         <!--External Resources-->
-        <link rel="stylesheet" href="/style.css"> <!--CSS to be added-->
-        <link rel="manifest" href="/manifest.json"> <!--Web App Manifest to be added-->
-        <link rel="icon" href="/favicon-16.ico" sizes="16x16"> <!--Favicon 16 to be added-->
-        <link rel="icon" href="/favicon-32.ico" sizes="32x32"> <!--Favicon 32 to be added-->
-        <script src="/script.js"></script> <!--JavaScript to be added-->
+        <link rel="stylesheet" href="style.css"> <!--CSS to be added-->
+        <!-- <link rel="manifest" href="manifest.json"> Web App Manifest disabled during preview to avoid CORS redirects -->
+        <link rel="icon" href="favicon-16.ico" sizes="16x16"> <!--Favicon 16 to be added-->
+        <link rel="icon" href="favicon-32.ico" sizes="32x32"> <!--Favicon 32 to be added-->
+        <script src="script.js"></script> <!--JavaScript to be added-->
     </head>
     <body id="p1Body" draggable="false">
         <noscript>Javascript is required for this website to function as intended.</noscript>
-        <main id="p1Main">
+        <header id="p1Header">
             <h1 aria-label="app title" class="appTitle">ZenSudoku</h1>
+        </header>
+        <main id="p1Main">
+            <button id="startButton" class="pebbleButton" type="button" aria-label="start">start</button>
         </main>
     </body>
 </html>
